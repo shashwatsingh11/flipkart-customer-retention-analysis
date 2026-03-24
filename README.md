@@ -12,3 +12,23 @@ Insights and recommendations are provided on the following key areas:
 
 - Operational Metrics & Sentiment Impact: Assessment of response time, call duration, and customer sentiment to determine their influence on CSAT
 
+# Data Structure
+
+The dataset consists of **30,000 customer support interaction records**, where each row represents a unique customer service call. It captures customer details, interaction attributes, and performance metrics used to analyze customer satisfaction (CSAT) and retention.
+
+| Column Name               | Data Type       | Description                                                                 |
+|--------------------------|-----------------|-----------------------------------------------------------------------------|
+| id 🔑                     | INT             | Unique identifier for each customer interaction                             |
+| customer_name            | VARCHAR         | Name of the customer                                                        |
+| Gender                   | VARCHAR         | Gender of the customer (e.g., Male, Female)                                 |
+| sentiment                | VARCHAR         | Customer sentiment (Positive, Neutral, Negative)                            |
+| csat_score               | INT             | Customer satisfaction score (e.g., 1–5 scale)                               |
+| call_timestamp           | DATETIME        | Date and time of the customer interaction                                   |
+| reason                   | VARCHAR         | Reason for the call (e.g., Billing, Service Outage)                         |
+| city                     | VARCHAR         | City of the customer                                                        |
+| state                    | VARCHAR         | State of the customer                                                       |
+| channel                  | VARCHAR         | Support channel (Call Center, Chatbot, etc.)                                |
+| response_time            | FLOAT / INT     | Time taken to respond (in seconds/minutes)                                  |
+| call_duration_minutes    | FLOAT           | Duration of the call in minutes                                             |
+| call_center              | VARCHAR         | Call center handling the interaction (e.g., Delhi, Mumbai)                  |
+
