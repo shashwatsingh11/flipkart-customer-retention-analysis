@@ -12,7 +12,7 @@ Insights and recommendations are provided on the following key areas:
 
 - Operational Metrics & Sentiment Impact: Assessment of response time, call duration, and customer sentiment to determine their influence on CSAT
 
-# Data Structure
+# Data Structure & Initial Checks
 
 The dataset consists of **30,000 customer support interaction records**, where each row represents a unique customer service call. It captures customer details, interaction attributes, and performance metrics used to analyze customer satisfaction (CSAT) and retention.
 
