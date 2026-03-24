@@ -18,17 +18,17 @@ The dataset consists of **30,000 customer support interaction records**, where e
 
 | Column Name               | Data Type       | Description                                                                 |
 |--------------------------|-----------------|-----------------------------------------------------------------------------|
-| id 🔑                     | INT             | Unique identifier for each customer interaction                             |
+| id 🔑                    | INT             | Unique identifier for each customer interaction                             |
 | customer_name            | VARCHAR         | Name of the customer                                                        |
 | Gender                   | VARCHAR         | Gender of the customer (e.g., Male, Female)                                 |
-| sentiment                | VARCHAR         | Customer sentiment (Positive, Neutral, Negative)                            |
-| csat_score               | INT             | Customer satisfaction score (e.g., 1–5 scale)                               |
+| sentiment                | VARCHAR         | Customer sentiment (Positive, Neutral, Negative, etc.)                      |
+| csat_score               | INT             | Customer satisfaction score (e.g., 1–10 scale)                              |
 | call_timestamp           | DATETIME        | Date and time of the customer interaction                                   |
 | reason                   | VARCHAR         | Reason for the call (e.g., Billing, Service Outage)                         |
 | city                     | VARCHAR         | City of the customer                                                        |
 | state                    | VARCHAR         | State of the customer                                                       |
 | channel                  | VARCHAR         | Support channel (Call Center, Chatbot, etc.)                                |
-| response_time            | FLOAT / INT     | Time taken to respond (in seconds/minutes)                                  |
+| response_time            | VARCHAR         | SLA status of response time (Within SLA, Above SLA, Below SLA)              |
 | call_duration_minutes    | FLOAT           | Duration of the call in minutes                                             |
 | call_center              | VARCHAR         | Call center handling the interaction (e.g., Delhi, Mumbai)                  |
 
