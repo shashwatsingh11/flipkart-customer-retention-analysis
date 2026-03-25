@@ -1,9 +1,13 @@
-# Project Background
+## Project Background
 Flipkart, founded in 2007, is a leading Indian e-commerce marketplace connecting buyers and sellers across multiple product categories, where customer support performance directly impacts CSAT, resolution efficiency, and retention.
 <br><br>
 Due to a decline in retention rates, this project analyzes customer support call data to identify key issues affecting customer experience.
-It evaluates factors like issue type, resolution time, channels, and regional trends to uncover actionable insights for improving service quality and retention.<br><br>
-Insights and recommendations are provided on the following key areas:
+It evaluates factors like issue type, resolution time, channels, and regional trends to uncover actionable insights for improving service quality and retention.
+
+---
+
+## Insights and recommendations are provided on the following key areas:
+
 - **Issue Type & CSAT Analysis**: Evaluation of customer issues and their impact on CSAT
 
 - **Channel & Call Center Performance**: Analysis of support channels and call centers to assess variations in CSAT and identify performance gaps across high-volume centers.
@@ -12,7 +16,9 @@ Insights and recommendations are provided on the following key areas:
 
 - **Operational Metrics & Sentiment Impact**: Assessment of response time, call duration, and customer sentiment to determine their influence on CSAT
 
-# Data Structure & Initial Checks
+---
+
+## Data Structure & Initial Checks
 
 The dataset consists of **30,000 customer support interaction records**, where each row represents a unique customer service call. It captures customer details, interaction attributes, and performance metrics used to analyze customer satisfaction (CSAT).
 
@@ -32,7 +38,9 @@ The dataset consists of **30,000 customer support interaction records**, where e
 | call_duration_minutes    | INT             | Duration of the call in minutes                                             |
 | call_center              | VARCHAR         | Call center handling the interaction (e.g., Delhi, Mumbai)                  |
 
-# Project Resources
+---
+
+## Project Resources
 
 - **Full Report (PDF):** [Download Project Report](report/final_report.pdf)
 - **Dashboard (Excel):** [Download Excel Dashboard](dashboard/dashboard.xlsx)
